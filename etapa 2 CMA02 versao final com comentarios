@@ -152,7 +152,7 @@ int main()
         printf("%d",NovoCadastro);
 
         if(NovoCadastro==0)/*caso o usuario desejar finalizar o cadastramento cliente receberá o valor de tam e nao serão solicitadas novas informações*/
-           Cliente=tam;
+           Cliente=Cliente+10;
 
            system("cls");
 
