@@ -42,19 +42,19 @@ int main()
         do /*impede que um código de serviço inexistente seja cadastrado e solicita novamente a informação*/
         {
             printf("\n\n \t INFORME O CODIGO DE SERVICO: ");
+            printf("\n\n \t -------------------------------------------------");
             printf("\n\n \t OPCOES DISPONIVEIS: ");
-            printf("\n\n \t ----------------------------------------");
-            printf("\n\n \t 1");
-            printf("\n\n \t 5");
-            printf("\n\n \t 12");
-            printf("\n\n \t 13");
-            printf("\n\n \t 18");
-            printf("\n\n \t 28");
-            printf("\n\n \t 59");
-            printf("\n\n \t 148");
-            printf("\n\n \t 149");
-            printf("\n\n \t 741");
-            printf("\n\n \t ----------------------------------------");
+            printf("\n\n \t 1   - LIGACAO NOVA COM INSTALACAO DE MEDIDOR");
+            printf("\n\n \t 5   - SUSPENS.FORNEC.FALTA-PGT.SEM RET.MEDIDOR");
+            printf("\n\n \t 12  - INSTALACAO DE MEDIDOR");
+            printf("\n\n \t 13  - RETIRADA DE MEDIDOR");
+            printf("\n\n \t 18  - PADRONIZACAO DE ENTRADA DE SERVICO");
+            printf("\n\n \t 28  - VISTORIAR PADRAO");
+            printf("\n\n \t 59  - PREPARAR CROQUIS AFASTAMENTO DE REDE");
+            printf("\n\n \t 148 - AUMENTO DE CARGA");
+            printf("\n\n \t 149 - REDUCAO DE CARGA");
+            printf("\n\n \t 741 - INSTALACAO DE MEDIDOR GR B GD");
+            printf("\n\n \t -------------------------------------------------");
             printf("\n\n \t:");
 
             scanf("%d",&CodigoServico[Cliente]);
