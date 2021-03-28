@@ -43,7 +43,7 @@ int main()
         {
 
             printf("\n\n \t -------------------------------------------------");
-            printf("\n\n \t OPCOES DISPONIVEIS: ");
+            printf("\n\n \t OPCOES  DE CODIGO DE SERVICO DISPONIVEIS: ");
             printf("\n\n \t 1   - LIGACAO NOVA COM INSTALACAO DE MEDIDOR");
             printf("\n\n \t 5   - SUSPENS.FORNEC.FALTA-PGT.SEM RET.MEDIDOR");
             printf("\n\n \t 12  - INSTALACAO DE MEDIDOR");
@@ -95,7 +95,7 @@ int main()
         {
 
         printf("\n\n \t ----------------------------------------");
-        printf("\n\n \t OPCOES DISPONIVEIS: ");
+        printf("\n\n \t OPCOES DE VEICULOS DISPONIVEIS: ");
         printf("\n\n \t 1100");
         printf("\n\n \t 1140");
         printf("\n\n \t 2230");
@@ -123,7 +123,7 @@ int main()
         {
 
             printf("\n\n \t ----------------------------------------");
-            printf("\n\n \t OPCOES DISPONIVEIS: ");
+            printf("\n\n \t OPCOES DE MATRICULAS DISPONIVEIS: ");
             printf("\n\n \t 37092");
             printf("\n\n \t 30192");
             printf("\n\n \t 30465");
@@ -274,7 +274,7 @@ int main()
                             do /*impede que um código de serviço inexistente seja inserido*/
                             {
                                 printf("\n\n \t -------------------------------------------------");
-                                printf("\n\n \t OPCOES DISPONIVEIS: ");
+                                printf("\n\n \t OPCOES  DE CODIGO DE SERVICO DISPONIVEIS: ");
                                 printf("\n\n \t 1   - LIGACAO NOVA COM INSTALACAO DE MEDIDOR");
                                 printf("\n\n \t 5   - SUSPENS.FORNEC.FALTA-PGT.SEM RET.MEDIDOR");
                                 printf("\n\n \t 12  - INSTALACAO DE MEDIDOR");
@@ -352,7 +352,7 @@ int main()
                             do /*impede que um numero de veiculo inexistente seja inserido*/
                             {
                                 printf("\n\n \t ----------------------------------------");
-                                printf("\n\n \t OPCOES DISPONIVEIS: ");
+                                printf("\n\n \t OPCOES DE VEICULOS DISPONIVEIS: ");
                                 printf("\n\n \t 1100");
                                 printf("\n\n \t 1140");
                                 printf("\n\n \t 2230");
@@ -383,7 +383,7 @@ int main()
                             do /*impede que um numero de matricula inexistente seja inserido*/
                             {
                                 printf("\n\n \t ----------------------------------------");
-                                printf("\n\n \t OPCOES DISPONIVEIS: ");
+                                printf("\n\n \t OPCOES DE MATRICULAS DISPONIVEIS: ");
                                 printf("\n\n \t 37092");
                                 printf("\n\n \t 30192");
                                 printf("\n\n \t 30465");
